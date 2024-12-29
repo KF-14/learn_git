@@ -8,3 +8,5 @@ Git tracks changes of files.
 Creating a new branch is quick & simple.
 
 Creating a dev branch.
+
+Git is a free software ...
