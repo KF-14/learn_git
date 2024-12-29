@@ -84,6 +84,12 @@ git pull origin <branch_name>
 git branch <branch_name>
 ```
 
+查看当前分支：
+
+```bash
+git branch
+```
+
 ## 切换分支
 
 切换到指定分支：
@@ -98,14 +104,19 @@ git checkout <branch_name>
 git checkout -b <branch_name>
 ```
 
-查看当前分支：
+好像已经有了新的命令：
 ```bash
-git branch
+git switch -c dev # 创建并切换
 ```
+
+```bash
+git switch main # 切换分支
+```
+git switch 是 Git 2.23 版本引入的一个新命令，如果你使用的是 Git 的旧版本，可能无法使用 git switch 命令
 
 ## 合并分支
 
-将指定分支合并到当前分支：
+将指定分支合并到**当前分支**：
 
 ```bash
 git merge <branch_name>
