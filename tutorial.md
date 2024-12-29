@@ -92,6 +92,17 @@ git branch <branch_name>
 git checkout <branch_name>
 ```
 
+创建分支并切换成这个分支：
+
+```bash
+git checkout -b <branch_name>
+```
+
+查看当前分支：
+```bash
+git branch
+```
+
 ## 合并分支
 
 将指定分支合并到当前分支：
