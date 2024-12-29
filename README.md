@@ -6,3 +6,9 @@ Git has a mutable index called stage.
 Git tracks changes of files.
 
 Creating a new branch is quick & simple.
+
+How to learn git...
+
+Creating a dev branch.
+
+Git is a free software ...
